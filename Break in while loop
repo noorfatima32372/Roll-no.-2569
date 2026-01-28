@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 1;
+    while(true) { // infinite loop
+        if(i > 5) {
+            break; // exit loop when i > 5
+        }
+        cout << i << " ";
+        i++;
+    }
+    return 0;
+}
